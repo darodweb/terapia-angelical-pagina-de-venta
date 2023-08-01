@@ -1,0 +1,369 @@
+/*** Font imports ***/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/****** Custom properties********/
+
+:root {
+    --primary-terapia-angelical: #ffd700bd;
+    --secondary-terapia-angelical: #515E9E;
+    --blue-section-bg-terapia-angelical: #D6E8F5;
+    --light-terapia-angelical:#F3F5F8;
+    --body-text-terapia-angelical: 'Poppins', sans-serif;
+    --body-font-size-terapia-angelical: clamp(1.125rem, 0.217vw + 1.076rem, 1.25rem);
+    --yellow-font-terapia-angelical:var(--primary-terapia-angelical);
+    --heading-font-terapia-angelical: 'Inter', sans-serif;
+    --body-font-terapia-angelical: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0dbe0dfb
+}
+
+h1,h2,h3,h4 {
+    font-family: var(--heading-font-terapia-angelical);
+    color: var(--secondary-terapia-angelical);
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: clamp(1.563rem, 2.172vw + 1.075rem, 2.813rem) !important;
+}
+h4 {
+    font-size: clamp(1.375rem, 0.128vw + 1.342rem, 1.5rem) !important;
+}
+
+p {
+    font-family: var(--body-font-terapia-angelical);
+    font-size: var(--body-font-size-terapia-angelical);
+    color: var(--secondary-terapia-angelical);
+}
+
+
+
+.max-width {
+    max-width: 1200px !important;
+    width: 100% !important;
+}
+
+img {
+    border: solid 4px var(--primary-terapia-angelical);
+}
+
+/****** Utilities********/
+
+.yellow {
+    color: var(--primary-terapia-angelical);
+}
+
+/****************************** TOP BAR********************************/
+
+.top-bar {
+    background: var(--primary-terapia-angelical);
+    font-family: var(--body-text-terapia-angelical);
+}
+
+.top-bar__content {
+    line-height: 1.5em;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    max-height: 55px;
+    color: var(--secondary-terapia-angelical);
+}
+/******************************END OF TOP BAR********************************/
+
+
+/****************************** HERO ********************************/
+
+/* .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+h1.hero__title {
+    font-size: clamp(2.375rem, 2.932vw + 1.717rem, 4.063rem);
+    /* line-height: clamp(3.563rem, 2.986vw + 2.893rem, 5.281rem); */
+    font-weight: 600; 
+    margin-top: 20px;
+}
+
+.hero__video-container {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border: solid 4px var(--primary-terapia-angelical);
+}
+
+@media screen and (min-width:992px) {
+    .hero__video-container {
+        width: 60%;
+    }
+} 
+
+
+.hero__subheading {
+    font-size: clamp(1.125rem, 0.434vw + 1.028rem, 1.375rem);
+    line-height: clamp(1.688rem, 0.174vw + 1.649rem, 1.788rem);
+    font-weight: 500;
+    color: var(--secondary-terapia-angelical)
+}
+
+/* iframe.hero__video {
+    border: solid 10px var(--primary-terapia-angelical);
+} */
+
+/****************************** END OF HERO ********************************/
+
+/*******************************SECTION 1 Terapia Angelical***********************************/
+
+.section-1__terapia-angelical {
+    padding: 60px 15px;
+    margin-top: 35px;
+}
+
+.section-1__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-1__terapia-angelical__content-wrapper {
+    background-color: var(--blue-section-bg-terapia-angelical);
+    padding: 25px 20px;
+}
+
+/*******************************END OF SECTION 1 Terapia Angelical**********************************/
+
+/*******************************SECTION 2 Terapia Angelical***********************************/
+
+.section-2__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+.section-2__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-2__terapia-angelical__content-wrapper {
+    /* background-color: #F3F5F8; */
+    padding: 25px 20px;
+    background-image: url(../assets/clouds.webp);
+    background-position:center center;
+}
+
+
+/*******************************END OF SECTION 2 Terapia Angelical**********************************/
+
+/*******************************SECTION 3 Terapia Angelical***********************************/
+
+.section-3__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+.section-3__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-3__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+
+/*******************************END OF SECTION 3 Terapia Angelical**********************************/
+
+/*******************************SECTION 4 Terapia Angelical***********************************/
+
+.section-4__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+.section-4__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-4__terapia-angelical__content-wrapper {
+    background-image: url(../assets/clouds_2.webp);
+    background-position:center center;
+    padding: 25px 20px;
+}
+
+
+.carrousel-container {
+    max-width:750px;
+}
+
+img.img-carrousel {
+    max-width: 500px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    img.img-carrousel {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .hidden_on_mobile {
+        display: none !important;
+    }
+}
+
+/* @media screen and (min-width:780px) {
+    .modal-content {
+        width: 90vw;
+        margin: 35px auto;
+    }
+} */
+
+/*******************************END OF SECTION 4 Terapia Angelical**********************************/
+
+/*******************************SECTION 5 Terapia Angelical***********************************/
+
+.section-5__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+h3.section-5__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-5__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+
+/*******************************END OF SECTION 5 Terapia Angelical**********************************/
+
+/*******************************SECTION 6 Terapia Angelical***********************************/
+
+.section-6__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+h3.section-6__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-6__terapia-angelical__content-wrapper {
+    background-color: var(--blue-section-bg-terapia-angelical);
+    padding: 25px 20px;
+    background-position:center center;
+}
+div.section-6__testimonio-wrapper {
+    text-align: center;
+}
+
+
+/*******************************END OF SECTION 6 Terapia Angelical**********************************/
+
+
+/*******************************SECTION 7 Terapia Angelical***********************************/
+
+.section-7__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+h3.section-7__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-7__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+.section-7__terapia-angelical-sub-heading  {
+    font-size: clamp(1.125rem, 0.434vw + 1.028rem, 1.375rem);
+    line-height: clamp(1.688rem, 0.174vw + 1.649rem, 1.788rem);
+    font-weight: 500;
+    color: var(--secondary-terapia-angelical)
+}
+
+
+/*******************************END OF SECTION 7 Terapia Angelical**********************************/
+
+/*******************************SECTION 8 Terapia Angelical***********************************/
+
+.section-8__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+h3.section-8__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-8__terapia-angelical__content-wrapper {
+    background-color: var(--blue-section-bg-terapia-angelical);
+    padding: 25px 20px;
+    background-position:center center;
+}
+div.section-8__testimonio-wrapper {
+    text-align: center;
+}
+
+
+/*******************************END OF SECTION 8 Terapia Angelical**********************************/
+
+/*******************************SECTION 9 Terapia Angelical***********************************/
+
+.section-9__terapia-angelical {
+    padding: 60px 15px;
+
+}
+
+h3.section-9__terapia-angelical-heading {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-9__terapia-angelical__content-wrapper {
+    background-color: #F3F5F8;
+    padding: 25px 20px;
+    background-position:center center;
+}
+
+.section-9__supporting-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* @media screen and (min-width: 480px) {
+    .section-9__bullets-container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+} */
+
+.section-9__icons {
+    border: unset;
+    min-width: 50px;
+}
+
+.section-9__bullets-wrapper {
+    margin: 20px 0;
+}
+
+
+
+/*******************************END OF SECTION 9 Terapia Angelical**********************************/
